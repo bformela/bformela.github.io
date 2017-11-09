@@ -50,7 +50,7 @@ h3 {
 }
 
 a {
-  color:#ffcc00;
+  color: #27a3ff;
   font-weight:400;
   text-decoration:none;
 
@@ -61,7 +61,7 @@ a {
 
 a small {
   font-size:11px;
-  color:#666;
+  color: #666;
   margin-top:-0.6em;
   display:block;
 }
@@ -184,12 +184,12 @@ dt {
 
       a {
         color: white;
-        border: 1px solid #5d910b;
+        border: 1px solid #0065c7;
         background: linear_gradient(#93bd20, #659e10);
         border-radius: 2px;
         box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 3px 7px rgba(0,0,0,.7);
 
-        background-color: #93bd20;
+        background-color: #1e6ab5;
         padding: 10px 12px;
         margin-top: 6px;
         line-height:14px;
@@ -199,8 +199,8 @@ dt {
 
         &:hover {
           background: linear_gradient(#749619, #527f0e);
-          background-color: #659e10;
-          border: 1px solid #527f0e;
+          background-color: #165b9e;
+          border: 1px solid #195b88;
           box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
         }
       }
