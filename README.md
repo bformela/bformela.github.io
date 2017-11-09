@@ -12,7 +12,7 @@ Simple OOP class with methods being able to access MySQL database and perform cr
 
 [MySQLiOOP](https://github.com/bformela/MySQLiOOP)
 
-### School punishment solution nowadays
+### School punishment solution nowadays (7.1)
 ```php
 function punishment(string $sentence, int $amount): void {
     for ($i = 1; $i<=$amount; $i++) {
