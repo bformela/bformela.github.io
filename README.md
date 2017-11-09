@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## PHP 7
 
-You can use the [editor on GitHub](https://github.com/bformela/bformela.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Simple poll
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+OOP style coding with two classes using JSON file database.
 
-### Markdown
+[SimplePoll](https://github.com/bformela/SimplePoll)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### MySQLi OOP CRUD
 
-```markdown
-Syntax highlighted code block
+Simple OOP class with methods being able to access MySQL database and perform create, read, update, delete actions using MySQLi.
 
-# Header 1
-## Header 2
-### Header 3
+[MySQLiOOP](https://github.com/bformela/MySQLiOOP)
 
-- Bulleted
-- List
+### School punishment solution nowadays
+```php
+function punishment(string $sentence, int $amount): void {
+    for ($i = 1; $i<=$amount; $i++) {
+        echo nl2br($i . '. ' . $sentence . PHP_EOL);
+    }
+}
 
-1. Numbered
-2. List
+punishment('I will not throw paper airplanes in class.', 100);
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bformela/bformela.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
