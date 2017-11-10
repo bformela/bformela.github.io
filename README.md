@@ -15,7 +15,7 @@ Simple OOP class with methods being able to access MySQL database and perform cr
 ### School punishment solution nowadays (7.1)
 ```php
 function punishment(string $sentence, int $amount): void {
-    for ($i = 1; $i<=$amount; $i++) {
+    for ($i = 1; $i <= $amount; $i++) {
         echo nl2br($i . '. ' . $sentence . PHP_EOL);
     }
 }
